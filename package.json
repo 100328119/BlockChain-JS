@@ -6,10 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/100328119/BlockChain-JS.git"
+  },
   "keywords": [
     "blockchain",
     "Nodejs"
   ],
   "author": "kunyuan huang",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/100328119/BlockChain-JS/issues"
+  },
+  "homepage": "https://github.com/100328119/BlockChain-JS#readme",
 }
