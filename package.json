@@ -2,9 +2,13 @@
   "name": "blockchain",
   "version": "1.0.0",
   "description": "blockchain learning project in JS",
-  "main": "index.js",
+  "main": "networknode.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node_1": "nodemon networknode.js 3001 http://localhost:3001 node_1",
+    "node_2": "nodemon networknode.js 3002 http://localhost:3002 node_2",
+    "node_3": "nodemon networknode.js 3003 http://localhost:3003 node_3",
+    "node_4": "nodemon networknode.js 3004 http://localhost:3004 node_4"
   },
   "repository": {
     "type": "git",
@@ -20,4 +24,18 @@
     "url": "https://github.com/100328119/BlockChain-JS/issues"
   },
   "homepage": "https://github.com/100328119/BlockChain-JS#readme",
+  "dependencies": {
+    "bs58": "^4.0.1",
+    "eccrypto": "^1.1.1",
+    "express": "^4.16.4",
+    "express-promise-router": "^3.0.3",
+    "lodash": "^4.17.11",
+    "merkle-tools": "^1.4.0",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "ripemd160": "^2.0.2",
+    "sha256": "^0.2.0",
+    "uuid": "^3.3.2"
+  }
 }
