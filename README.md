@@ -12,6 +12,7 @@ basic start
 5. send a  "localhost:3001/api/node_info/" GET request in postman window, you should node_1 information if code is running properly
 
 building network
+
 you can any nodes to construct the network, in this case I use node_1 as example
 1. in postman, enter url "localhost:3001/api/register-and-broadcast-node"
 2. select "post" as http request
@@ -28,6 +29,7 @@ you can any nodes to construct the network, in this case I use node_1 as example
     if you can see above info that means network is established, and you can do the same for entering node_3 into network
 
 Send Transaction/mine block
+
 by default, each node already has a encryption keypair and address. you can find those information from /api/node_info/ api.
 also, node_1 has owns the gensis coinbase which means node_1 has 12.5 BlockChain-JS coins to spend.
 
